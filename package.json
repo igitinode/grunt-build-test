@@ -1,0 +1,31 @@
+{
+  "name": "grunt-build-test",
+  "description": "This is grunt-build-test project",
+  "version": "0.1.0",
+  "keywords": [
+    "compass",
+    "css",
+    "grunt",
+    "sass",
+    "igitinode",
+    "web"
+  ],
+  "homepage": "http://jack.ishang.club",
+  "author": "Jack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igitinode/grunt-build-test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-cssmin": "~0.14.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}
