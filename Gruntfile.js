@@ -1,4 +1,4 @@
-module.export = function  (grunt) {
+module.exports = function  (grunt) {
   'use strict';
 
   // Project configuration.
@@ -15,7 +15,7 @@ module.export = function  (grunt) {
       },
       build: {
         src: 'js/controller/*.js',
-        dest: 'dist/dest.min.js'
+        dest: 'dest/dest.min.js'
       }
     }
   });
@@ -23,9 +23,9 @@ module.export = function  (grunt) {
   // load the plugin that provides the 'uglify' task
   grunt.loadNpmTasks('grunt-contrib-uglify');  // 插件加载声明
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-qunit');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-concat');
+  // grunt.loadNpmTasks('grunt-contrib-qunit');
+  // grunt.loadNpmTasks('grunt-contrib-watch');
+  // grunt.loadNpmTasks('grunt-contrib-concat');
 
   // Default task(s)
   grunt.registerTask('default', ['uglify']);  // 定义组合任务

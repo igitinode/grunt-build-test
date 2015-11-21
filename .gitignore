@@ -47,3 +47,4 @@ npm-debug.log
 .idea
 .node_history
 vendor
+dest
