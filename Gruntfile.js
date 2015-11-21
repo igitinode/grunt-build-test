@@ -21,11 +21,12 @@ module.exports = function  (grunt) {
   });
 
   // load the plugin that provides the 'uglify' task
-  grunt.loadNpmTasks('grunt-contrib-uglify');  // 插件加载声明
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  // grunt.loadNpmTasks('grunt-contrib-qunit');
-  // grunt.loadNpmTasks('grunt-contrib-watch');
-  // grunt.loadNpmTasks('grunt-contrib-concat');
+  // 插件加载声明
+  grunt.loadNpmTasks('grunt-contrib-uglify');     // 压缩js代码
+  grunt.loadNpmTasks('grunt-contrib-jshint');     // js代码校验
+  // grunt.loadNpmTasks('grunt-contrib-qunit');      // 单元测试
+  // grunt.loadNpmTasks('grunt-contrib-watch');   // 文件监控
+  // grunt.loadNpmTasks('grunt-contrib-concat');  // 合并js文件
 
   // Default task(s)
   grunt.registerTask('default', ['uglify']);  // 定义组合任务
