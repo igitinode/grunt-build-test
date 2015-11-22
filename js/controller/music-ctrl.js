@@ -1,7 +1,5 @@
 'use strict';
 
-angular.module('siteJack', []);
-
 angular.module('siteJack')
 .controller('MusicCtrl', function ($scope) {
   $scope.start = true;
